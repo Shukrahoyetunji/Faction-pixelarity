@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/icons-1.8.1/icons-1.8.1/font/bootstrap-icons.css">
+</head>
+<header>
+    <nav>
+        <div class="pixel">
+            <p><b>FACTION</b><span class="faction"> By Pixelarity</span></p>
+        </div>
+        <div class="home">
+            <div class="nav-link" id="navLinks">
+                <i class="bi bi-x hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="hom"><a href="#">Home</a> </li>
+                    <li class="down"><i class="bi bi-chevron-down"></i><a href="#">Dropdown</a>
+                       
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Option One</a></li>
+                                <li><a href="#">Option Two</a></li>
+                                <li><a href="#">Option Three</a></li>
+                                <li class="submenu"><a href="#">SubMenu</a>
+                                    <div class="menu1">
+                                        <ul>
+                                            <li><a href="#">Option One</a></li>
+                                            <li><a href="#">Option Two</a></li>
+                                            <li><a href="#">Option Three</a></li>
+                                            <li><a href="#">option Four</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <div class="res">
+                        <ul>
+                            <li><a class="responsive" href="#">Option One</a></li>
+                            <li><a class="responsive" href="#">Option Two</a></li>
+                            <li><a class="responsive" href="#">Option Three</a></li>
+                            <li><a class="responsive" href="#">SubMenu</a></li>
+                        </ul>
+                    </div>
+                    <div class="resp">
+                        <ul>
+                            <li><a class="responsive" href="#">Option One</a></li>
+                            <li><a class="responsive" href="#">Option Two</a></li>
+                            <li><a class="responsive" href="#">Option Three</a></li>
+                            <li><a class="responsive" href="#">Option Four</a></li>
+                        </ul>
+                    </div>
+                    <li><a href="#">Generic</a></li>
+                    <li><a href="#">Element</a></li>
+                    <button>Log In</button>
+                </ul>
+            </div>
+            <i class="bi bi-list  show" onclick="showMenu()"></i>
+        </div>
+    </nav>
+</header>
+<!-- javascript for menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+    function hideMenu() {
+        navLinks.style.right = '-200%';
+    }
+</script>
+<body>
+    <!-- section one -->
+    <section class="one">
+        <div class="col1">
+            <div class="slide">
+                <h2>Ultricies sed magna</h2>
+                <h4>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor ipsum dolor.</h4>
+                <h4><a href="#">Magna sed dolor</a></h4>
+            </div>
+            <div class="colu2">
+                <h2>Magna etiam</h2>
+                <p>Fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem sed euismod placerat. Vivamus porttitor et magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper lorem ipsum.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="slide1">
+                <h1>Sed mattis nunc lorem</h1>
+                <p>Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla lorem.</p>
+            </div>
+            <div class="velit">
+                <h2>Sed aliquam</h2>
+                <img src="/pic02.jpg" alt="">
+                <h5>September 19, 2016 </h5>
+                <h3>Non velit accumsan cursus gravida amet sapien</h3>
+                <p>Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis varius.</p>
+                <h4><a href="#">Continue Reading</a></h4>
+            </div>
+            <div class="all">
+                <div class="gem">
+                    <div class="icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+                    <div>
+                        <h3>Nisl sed vitae</h3>
+                        <h4>Nullam et orci sed lorem magna et vivamus sagittis libero.</h4>
+                    </div>
+                </div>
+                <div class="disk">
+                    <div class="icon">
+                        <i class="bi bi-save"></i>
+                    </div>
+                    <div>
+                        <h3>Sed mattis nunc</h3>
+                        <h4>Duis non efficitur nisi, sed justo. Maecenas sagittis semper.</h4>
+                    </div>
+                </div>
+                <div class="gem">
+                    <div class="icon">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>Porta ultricies</h3>
+                        <h4>Maecenas sagittis felis ac sagittis semper. Curabitur purus leo.</h4>
+                    </div>
+                </div>
+                <div class="disk">
+                    <div class="icon">
+                        <i class="bi bi-diamond"></i>
+                    </div>
+                    <div>
+                        <h3>Magna tellus </h3>
+                        <h4>Auctor orci eu dolor consectetur, interdum ullamcorper ante./h4>
+                    </div>
+                </div>
+                <div class="word1">
+                    <img class="img" src="/pic01.jpg" alt="">
+                    <h3>Sit amet posuere risus amet lorem faucibus lectus</h3>
+                    <h4>Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac magna consequat.</h4>
+                    <h4><a href="#">Learn More</a></h4>
+                    
+                </div>
+                <div class="word2">
+                    <div class="ref" >
+                        <img src="/pic02.jpg" alt="">
+                        <h3>Sit amet posuere risus amet lorem faucibus lectus</h3>
+                        <h4>Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac magna consequat.</h4>
+                        <h4><a href="#">Learn More</a></h4>
+                    </div>
+                </div>
+                <div class="word1">
+                    <div>
+                        <img src="/pic03.jpg" alt="">
+                        <h3>Sit amet posuere risus amet lorem faucibus lectus</h3>
+                        <h4>Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac magna consequat.</h4>
+                        <h4><a href="#">Learn More</a></h4>
+                    </div>
+                </div>
+                <div class="word2">
+                    <div>
+                        <img src="/pic04.jpg" alt="">
+                        <h3>Sit amet posuere risus amet lorem faucibus lectus</h3>
+                        <h4>Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac magna consequat.</h4>
+                        <h4><a href="#">Learn More</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="slide2">
+                <div class="quis">
+                    <h2>Arcu dolore</h2>
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h5>______________________________________</h5>
+                </div>
+                <div class="quis">
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h5>______________________________________</h5>
+                </div>
+                <div class="quis">
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h5>______________________________________</h5>
+                    </div>
+                <div class="quis">
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h5>______________________________________</h5>
+                </div>
+                <div class="quis">
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h5>______________________________________</h5>
+                </div>
+                <div class="quis1">
+                    <p><a href="">Etiam quis viverra lorem in semper lorem.</a></p>
+                    <h5>September 15, 2016</h5>
+                    <h4><a href="#">More post</a></h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="about">
+            <div class="about1">
+                <h3>About Us</h3>
+                <h4>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur malesuada.</h4>
+                <h4>Sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis.</h4>
+                <h4><a href="#">Learn More</a></h4>
+
+            </div>
+            <div class="pic">
+                <div class="doe">
+                    <div>
+                        <img src="/pic06.jpg" alt="">
+                    </div>
+                    <div class="john">
+                        <h4>John Doe</h4>
+                        <h5>Lorem semper magna etiam</h5>
+                    </div>
+                </div>
+               <div class="doe">
+                   <div>
+                       <img src="/pic07.jpg" alt="">
+                    </div>
+                    <div class="john">
+                      <h4>Jane Anderson</h4>
+                      <h5>Lorem semper magna etiam</h5>
+                    </div>
+                </div>
+                <div class="doe">
+                    <div>
+                        <img src="/pic08.jpg" alt="">
+                    </div>
+                    <div class="john">
+                        <h4>Mike Smith</h4>
+                        <h5>Lorem semper magna etiam</h5>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <div class="media">
+                <div class="hou">
+                    <i class="bi bi-house"></i>
+                </div>
+                <div>
+                    <h4><a href="#">1234 Somewhere Road #80486 Nashville, TN 00000</a></h4>
+                </div>
+            </div>
+            <div class="media">
+                <div class="hou">
+                    <i class="bi bi-phone"></i>
+                </div>
+                <div>
+                    <h4><a href="#">(800) 555-0000 x12345</a></h4>
+                </div>
+            </div>
+            <div class="media">
+                <div class="hou">
+                    <i class="bi bi-inbox"></i>
+                </div>
+                <div>
+                    <h4><a href="#">hello@untitled.tld</a></h4>
+                </div>
+            </div>
+            <div class="media">
+                <div class="hou">
+                    <i class="bi bi-facebook"></i>
+                </div>
+                <div>
+                    <h4><a href="#">facebook.com/untitled-tld</a></h4>
+                </div>
+            </div>
+            <div class="media">
+                <div class="hou">
+                    <i class="bi bi-twitter"></i>
+                </div>
+                <div>
+                    <h4><a href="#">twitter.com/untitled-tld</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="buttom">
+        <p>© Untitled. All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
